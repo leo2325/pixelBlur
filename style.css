@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: white;
+    font-family: sans-serif;
+  }
+  
+  .grid-container {
+    width: 540px;
+    height: 112px;
+    display: grid;
+    grid-template-columns: repeat(27, 20px);
+    grid-template-rows: repeat(56, 20px);
+    gap: 0;
+    justify-content: start;
+    background-image: url('./model.jpg');
+    background-size: cover;  /* Ou "contain" selon ce que tu veux */
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
